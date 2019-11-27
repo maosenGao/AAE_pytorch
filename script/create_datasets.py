@@ -1,4 +1,9 @@
 from __future__ import print_function
+
+import sys
+sys.path.append('c:\\programdata\\anaconda3\\lib\\site-packages')
+
+
 import pickle
 import numpy as np
 import torch

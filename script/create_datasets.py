@@ -10,6 +10,9 @@ import torch
 from torchvision import datasets, transforms
 
 from sub import subMNIST
+# 上一行报错
+# subMNIST 是sub下的一个函数
+
 
 transform = transforms.Compose([transforms.ToTensor(),
                                 transforms.Normalize((0.1307,), (0.3081,))])
